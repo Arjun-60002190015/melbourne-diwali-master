@@ -1,0 +1,43 @@
+.footer{
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    padding: 20px;
+    width: 90%;
+    
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.footer__content{
+    color: black;
+}
+
+.email__input{
+    margin: 20px;
+}
+
+.getStarted{
+    padding: 16px 20px;
+    font-size: 1 rem;
+    border: none;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    cursor:pointer;
+}
+.em{
+    padding: 16px 20px;
+    font-size: 1 rem;
+    border:currentColor;
+}
+
+.form>input{
+    
+    outline-width: 0;
+    font-weight: 300;
+    
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}

@@ -1,0 +1,197 @@
+
+.homeScreen-major{
+    background: url("https://images.unsplash.com/photo-1635192592106-77a5aacbe1a3?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D    ") center no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.homeScreen{
+    
+    
+    
+
+
+
+}
+
+.homeScreen__body{
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+
+
+
+.homeScreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0,4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5) 0,
+        rgba(0, 0, 0, 0.5) 70%,
+        rgba(0, 0, 0, 0.9) 100%  
+    );
+}
+.progress-bar{
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background: var(--black);
+  transform-origin: 0%;
+}
+
+.second_page{
+    flex-direction: column;
+    display: flex;
+}
+
+
+.homeScreen__body>h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    text-shadow: #211e1e;
+    
+    
+}
+
+
+
+.homeScreen__body>h3{
+    font-size: 1.0rem;
+    font-weight: 350;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+
+
+
+.event_button{
+    
+    width: 50%;
+    height: 100vh;
+    border-radius: 10px;
+    
+}
+
+.particapation_button{
+    width: 150%;
+    height: 50vh;
+    border-radius: 10px;
+    
+}
+
+.sponsor_button{
+    border-radius: 10px;
+    width: 150%;
+    
+    height: 48vh;
+    margin-top: 7%;
+
+}
+
+
+
+.second_page{
+    padding-top: 40%;
+    flex-direction: row;
+    display: flex;
+    
+    
+}
+
+.event_button{
+    cursor: pointer;
+    color: #fff;
+    background-image: url("https://melbournediwali.com.au/wp-content/uploads/2023/12/pixie_1702096100424-1024x624.png");
+    
+    outline: none;
+    border: none;
+    font-weight: 900;
+    transition: 0.5s;
+
+}
+
+.partTwo{
+    margin-left: 2%;
+    flex-direction: column;
+    display: flex;
+}
+
+.particapation_button{
+    cursor: pointer;
+    color: #fff;
+    
+    background-image: url("https://melbournediwali.com.au/wp-content/uploads/2023/12/084A1992-400x400.jpg");
+    
+    outline: none;
+    border: none;
+    font-weight: 900;
+    transition: 0.5s;
+
+}
+
+.sponsor_button{
+    cursor: pointer;
+    color: #fff;
+    background-image: url("https://melbournediwali.com.au/wp-content/uploads/2023/11/IMG_9539-scaled.jpg");
+    background-color: rgba(174, 13, 13, 0.964);
+    outline: none;
+    border: none;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.event_button:hover{
+    
+    background-color: #e6e6e6;
+    transition: 0.5s;
+    scale: 1.04;
+}
+.sponsor_button:hover{
+    
+    scale: 1.04;
+    background-color: #e6e6e6;
+    transition: 0.5s;
+}
+
+
+.particapation_button:hover{
+    scale: 1.04;
+    background-color: #e6e6e6;
+    transition: 0.5s;
+}
+
+/*
+
+https://images.unsplash.com/photo-1635192592106-77a5aacbe1a3?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+.home__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0,4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0.8) 60%,
+        rgba(0, 0, 0, 0.8) 100%  
+    );
+}
+*/
+

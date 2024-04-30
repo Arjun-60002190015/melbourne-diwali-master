@@ -1,0 +1,31 @@
+.container{
+    position: inherit;
+    flex-direction: row;
+    display: flex;
+}
+
+.animation{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background-color: black;
+}
+
+.container_body>h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    text-shadow: #211e1e;
+}
+
+.container_body{
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
